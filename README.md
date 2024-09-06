@@ -11,6 +11,7 @@ pip install pyqrcode
 pip install pillow
 pip install pypng
 ```
+Clone the repo and run the below command
 
 ```sh
 python qr.py
