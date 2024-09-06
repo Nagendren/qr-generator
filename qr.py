@@ -34,7 +34,7 @@ canvas.create_window(200, 100, window=name_label)    #add to canvas window
 name_entry = Entry(root)
 canvas.create_window(200, 130, window=name_entry)
 
-link_label = Label(root, text="Link")                 #create lable
+link_label = Label(root, text="Link URL")                 #create lable
 canvas.create_window(200, 160, window=link_label)     #add to canvas window
 
 link_entry = Entry(root)
@@ -43,15 +43,6 @@ canvas.create_window(200, 180, window=link_entry)
 #create button
 button = Button(root, text="Generate QR code", command=generateqr)
 canvas.create_window(200, 240, window=button)
-
-
-
-
-
-
-
-
-
 
 
 
